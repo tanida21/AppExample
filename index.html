@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <style>
+        .container{
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-lg-4 text-center">
+                <h1 class="text-center">
+                    <i class="fa fa-ravelry" aria-hidden="true" style="font-size: 100px;color: #17a2b8"></i><br>
+                    App
+                </h1>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-md-center">
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="src/img/300x300.jpg" id="result" width="150">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-md-center">
+            <div class="col-lg-4">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="">score</span>
+                    </div>
+                    <input type="text" class="form-control" id="score">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-md-center">
+            <div class="col-lg-4">
+                <input class="btn btn-primary btn-block" type="button" value="calulate" onclick="calculate()">
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="src/js/input.js"></script>
+    <script src="src/js/process.js"></script>
+    <script src="src/js/output.js"></script>
+    <script src="src/js/calculate.js"></script>
+</body>
+</html>
